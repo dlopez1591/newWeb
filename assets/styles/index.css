@@ -36,9 +36,33 @@
     object-fit: cover; /* Para que el video se ajuste al tamaño del div */
     z-index: -1; /* Coloca el video detrás del contenido */
   }
-  #articulo{
-    background-color: rgb(134, 15, 15);
+  #articuloUno{
+
     width: 450px;
     height: 600px;
     margin: 15px;
+  }
+  #logoArticuloUno{
+    width: 400px;
+  }
+  .articuloVideo{
+    color: #060640;
+    font-family: IBM Plex Sans;
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 55px;
+  }
+  .textoGrandeArticulos{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #linkBtnPrueba{
+    text-decoration: none;
+    cursor: pointer;
   }
