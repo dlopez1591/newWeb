@@ -6,4 +6,39 @@
 .bg-custom {
     background-color: #6FB2ED;
   }
-  
+#btnIngresar{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #FF904DED;
+    margin: 10px;
+}  
+#btnCrear{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #FF904DED;
+    margin: 10px;
+}
+.articuloVideo {
+    position: relative;
+    width: 99vw;
+    height: 900px;
+    overflow: hidden;
+  }
+
+  #videoFondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    object-fit: cover; /* Para que el video se ajuste al tamaño del div */
+    z-index: -1; /* Coloca el video detrás del contenido */
+  }
+  #articulo{
+    background-color: rgb(134, 15, 15);
+    width: 450px;
+    height: 600px;
+    margin: 15px;
+  }
