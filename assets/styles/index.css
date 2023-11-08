@@ -158,5 +158,34 @@
 }
 #articuloCuatro{
   width: 99vw;
-  
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+#cajaLicencias{
+  width: 95vw;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 15px;
+}
+.licenciaCard{
+  width: 370px;
+  height: 400px;
+  background-color: #F0C588;
+  display: flex;
+  flex-direction: column;
+  justify-content: last baseline;
+  align-items: center;
+}
+.imagenesLicencia{
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.tituloLicencias{
+  font-size: 20px;
+  padding: 5px;
 }
