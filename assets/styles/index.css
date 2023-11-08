@@ -71,6 +71,12 @@
 #imagenFormulario{
   height: 560px;
 }
+.separador{
+  width: 99vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 /* propuesta video todo el codigo de abajo hasta finalizar comentario  */
 
 /* .articuloVideo {
