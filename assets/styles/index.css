@@ -27,7 +27,6 @@
 #articuloDos{
   width: 99vw;
   height: 650px;
-  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -36,32 +35,24 @@
 #formularioContacto{
   width: 500px;
   height: 500px;
-  background-color: aqua;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-}
-#formularioContacto{
-  color: #060640;
-  text-align: center;
-  font-family: IBM Plex Sans;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
 }
 .datosFormulario{
   width: 400px;
   height: 35px;
   font-size: 20px;
   text-align: center;
+  background-color: #eeeeee;
 }
 #mensaje{
   width: 400px;
   height: 200px;
   font-size: 20px;
   text-align: center;
+  background-color: #eeeeee;
 }
 #enviarFormulario{
   width: 400px;
@@ -76,6 +67,9 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+#imagenFormulario{
+  height: 560px;
 }
 /* propuesta video todo el codigo de abajo hasta finalizar comentario  */
 
