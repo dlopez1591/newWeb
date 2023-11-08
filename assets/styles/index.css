@@ -80,7 +80,6 @@
 #segundoArticulo{
   width: 99vw;
   height: 600px;
-  background-color: #6FB2ED;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,7 +97,6 @@
 #organizadorCards{
   width: 99vw;
   height: 500px;
-  background-color: #F0C588;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -107,10 +105,18 @@
 .tarjeta{
   width: 370px;
   height: 430px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #F5F5F5;
   border-radius: 14px;
-  border: 2px solid rgba(6, 6, 64, 0.00);
-  background-color: aqua;
+  box-shadow: 5px 5px 5px #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
 }
 .iconoCard{
-  width: 40px;
+  width: 60px;
+  margin: 50px;
 }
