@@ -120,3 +120,12 @@
   width: 60px;
   margin: 50px;
 }
+.tituloCard{
+  color: #060640;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+}
