@@ -199,3 +199,15 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.linkLicencias{
+  text-decoration: none;
+  color: #000;
+  font-family: IBM Plex Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.precio{
+  color: #FF904D;
+}
